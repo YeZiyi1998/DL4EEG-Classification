@@ -88,15 +88,21 @@ sh het_example.sh
 
 ## Dataset website
 Search_Brainwave: http://www.thuir.cn/Search_Brainwave/
+
 AMIGOS: http://www.eecs.qmul.ac.uk/mmv/datasets/amigos/index.html
 
 
 ## Reference
 
 BTA: "Brain Topography Adaptive Network for Satisfaction Modeling in Interactive Information Access System".[unavailabled online]
+
 RGNN: "EEG-based emotion recognition using regularized graph neural networks".[https://ieeexplore.ieee.org/abstract/document/9091308]
+
 DGCNN: "EEG emotion recognition using dynamical graph convolutional neural networks".[https://ieeexplore.ieee.org/abstract/document/8320798]
+
 HetEmotionNet: "HetEmotionNet: two-stream heterogeneous graph recurrent neural network for multi-modal emotion recognition".[https://dl.acm.org/doi/abs/10.1145/3474085.3475583]
+
 BENDR: "BENDR: using transformers and a contrastive self-supervised learning task to learn from massive amounts of EEG data".[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8261053/]
+
 EEGNet: "EEGNet: a compact convolutional neural network for EEG-based brain–computer interfaces".[https://iopscience.iop.org/article/10.1088/1741-2552/aace8c/meta]
 
