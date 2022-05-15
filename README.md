@@ -1,4 +1,4 @@
-# BTA 
+# DL4EEG-Classification 
 These are the implementation of various deep learning based EEG classification models, including RGNN, DGCNN, 
 
 ## Quick start
