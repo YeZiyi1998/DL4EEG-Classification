@@ -23,6 +23,14 @@ def value2label(v, mode, split_mode):
         elif v <= lowerbound:
             return 0
         return -1
+    elif mode == 'Example':
+        upperbound = 3
+        lowerbound = 2
+        if v >= upperbound:
+            return 1
+        elif v <= lowerbound:
+            return 0
+        return -1
 
 class MyDataloader():
     def __init__(self, args):
