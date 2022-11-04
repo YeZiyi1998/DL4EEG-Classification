@@ -5,3 +5,4 @@ data/amigos_preprocessed/*
 data/search_brainwave_preprocessed/*
 cache_data/*
 *.pyc
+__pycache__/
