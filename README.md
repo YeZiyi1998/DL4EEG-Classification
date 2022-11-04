@@ -1,5 +1,5 @@
 # DL4EEG-Classification 
-These are the implementation of various deep learning based EEG classification models, including RGNN, DGCNN, 
+These are the implementation of various deep learning based EEG classification models, including RGNN, DGCNN, BTA, HetEmotionNet, BENDR, EEGNet 
 
 ## Quick start
 ### Installing required packages
