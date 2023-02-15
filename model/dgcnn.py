@@ -33,24 +33,6 @@ def get_edge_weight(dataset, mode = 'dgcnn'):
                         edge_weight[i][j] = math.exp(-edge_weight[i][j]/2)
                     else:
                         edge_weight[i][j] = 0
-    elif mode == 'rgnn':
-        for i in range(len(total_part)):
-            for j in range(len(total_part)):
-                edge_index[0].append(i)
-                edge_index[1].append(j)
-                if i == j:
-                    edge_weight[i][j] = 1
-                else:
-                    edge_weight[i][j] = np.sum([(edge_pos_value[i][k] - edge_pos_value[j][k])**2 for k in range(3)])
-                    edge_weight[i][j] = min(1, delta/edge_weight[i][j])
-        global_connections = [['FP1','FP2'],['AF3','AF4'],['F5','F6'],['FC5','FC6'],['C5','C6'],['CP5','CP6'],['P5','P6'],['PO5','PO6'],['O1','O2']]
-
-        for item in global_connections:
-            if i in total_part and j in total_part:
-                i = total_part.index(item[0])
-                j = total_part.index(item[1])
-                edge_weight[i][j] -= 1
-                edge_weight[j][i] -= 1
     return edge_index, edge_weight 
 
 def maybe_num_nodes(index, num_nodes=None):

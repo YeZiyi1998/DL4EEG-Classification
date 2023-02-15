@@ -47,6 +47,7 @@ def get_edge_weight(dataset, mode = 'rgnn'):
         global_connections = [['FP1','FP2'],['AF3','AF4'],['F5','F6'],['FC5','FC6'],['C5','C6'],['CP5','CP6'],['P5','P6'],['PO5','PO6'],['O1','O2']]
 
         for item in global_connections:
+            i,j = item
             if i in total_part and j in total_part:
                 i = total_part.index(item[0])
                 j = total_part.index(item[1])
