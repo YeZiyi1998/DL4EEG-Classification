@@ -94,7 +94,7 @@ AMIGOS: http://www.eecs.qmul.ac.uk/mmv/datasets/amigos/index.html
 
 ## Reference
 
-BTA: "Brain Topography Adaptive Network for Satisfaction Modeling in Interactive Information Access System".[unavailabled online]
+BTA: "Brain Topography Adaptive Network for Satisfaction Modeling in Interactive Information Access System".[https://dl.acm.org/doi/abs/10.1145/3503161.3548258]
 
 RGNN: "EEG-based emotion recognition using regularized graph neural networks".[https://ieeexplore.ieee.org/abstract/document/9091308]
 
